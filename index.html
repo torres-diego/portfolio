@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://use.typekit.net/hrb2hfn.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="img/diego-logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles/css/reset.css">
+    <link rel="stylesheet" href="styles/css/style.css">
+    <title>Diego Torres</title>
+</head>
+
+<body>
+    <div class="hero__section">
+        <h1>Diego Torres</h1>
+        <p>Front End Web Developer</p>
+    </div>
+    <div class="site__wrapper">
+        <div class="about__section">
+            <h2>About</h2>
+            <p>I'm a Front End Web Developer in the Philadelphia area. I have a bachelor's degree in Interactive Digital Media
+                from Drexel University. I began diving into the world of web development about four years ago and have been
+                continuing to expand my knowledge of web development in and out of the classroom. In my free time I like
+                to play video games, run, and spend time with my family and friends.</p>
+            <button>View Resume</button>
+        </div>
+        <div class="work__section">
+            <h2>Work</h2>
+            <div class="work__wrapper">
+                <div class="trestle__work">
+                    <h3>Trestle</h3>
+                    <img src="img/trestle_380x270.png" alt="Trestle App image.">
+                    <p>Trestle is an Express, Mongo, Node app that uses Handlebars to create the views. Mongoose schemas were
+                        used to save Users, Children, and Strategies. They were then saved to a Mongo database. Trestle was
+                        deployed using the Heroku CLI</p>
+                    <button class="goToSite__Btn">View Live Site</button>
+                </div>
+                <div class="altj__work">
+                    <h3>Alt J Interactive Site</h3>
+                    <img src="img/altj_380x270.png" alt="Alt J Interactive Site image.">
+                    <p>The alt-J interactive site features SVG icons created with Adobe's Illustrator. The site also uses javascript
+                        to toggle the music on and off, the background is video that plays on loop.</p>
+                    <button class="goToSite__Btn">View Live Site</button>
+                </div>
+                <div class="happySunshine__work">
+                    <h3>Happy Sunshine</h3>
+                    <img src="img/happySunshine_380x270.png" alt="Happy Sunshine Mobile App image.">
+                    <p>Happy Sunshine is a food truck on Drexel's campus, the project was to create a mobile ordering app. The
+                        project used the Foundation framework for layout and jquery to </p>
+                    <button class="goToSite__Btn">View Live Site</button>
+                </div>
+            </div>
+        </div>
+        <div class="contact__section">
+            <h2>Contact</h2>
+            <div class="contact__wrapper">
+                <p>Thank you for stopping by! If you would like to get in contact with me you can send me an email. You can
+                    also check out some of my
+                    <a href="https://codepen.io/diegotorres/">pens</a> on codepen if you would like.</p>
+                <form action="https://formspree.io/diegoetorres1@gmail.com" method="POST">
+                    <div class="form__group">
+                        <label for="name">Your Name</label>
+                        <input type="text" name="name" required>
+                    </div>
+                    <div class="form__group">
+                        <label for="email">Your Email</label>
+                        <input type="text" name="email" required>
+                    </div>
+                    <div class="form__group">
+                        <label for="subject">Subject</label>
+                        <input type="text" name="subject" required>
+                    </div>
+                    <div class="form__group">
+                        <label for="message">Message</label>
+                        <textarea type="text" name="message" required></textarea>
+                    </div>
+                    <button type="submit" value="send">Send</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
