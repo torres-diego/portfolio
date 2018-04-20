@@ -251,9 +251,13 @@
           box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
   -webkit-transition: 0.6s all ease-in-out;
   transition: 0.6s all ease-in-out;
-  color: #fff;
   font-family: "proxima-nova", sans-serif;
   font-size: 1.5rem;
+  color: #fff;
+}
+.site__wrapper button a {
+  color: #fff;
+  text-decoration: none;
 }
 .site__wrapper button:hover {
   -webkit-box-shadow: none;
@@ -266,4 +270,5 @@
     margin: 0 20px;
   }
 }
+
 /*# sourceMappingURL=style.css.map */
