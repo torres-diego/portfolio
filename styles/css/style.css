@@ -80,7 +80,7 @@
 }
 .about__section p {
   font-family: "proxima-nova", sans-serif;
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin: 10px 0;
 }
 
@@ -216,7 +216,8 @@
   display: block;
   width: 100%;
   height: 30px;
-  border: 2px solid #2575fc;
+  border: 0;
+  border-bottom: 2px solid #2575fc;
 }
 .contact__section .contact__wrapper form input:focus {
   font-size: 1.3rem;
@@ -238,7 +239,19 @@
           flex-direction: column;
   margin: 0 50px;
 }
-.site__wrapper button {
+.site__wrapper .goToSite__Btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin: 20px 0;
   border: 0;
   width: 250px;
@@ -254,12 +267,10 @@
   font-family: "proxima-nova", sans-serif;
   font-size: 1.5rem;
   color: #fff;
-}
-.site__wrapper button a {
-  color: #fff;
   text-decoration: none;
+  text-align: center;
 }
-.site__wrapper button:hover {
+.site__wrapper .goToSite__Btn:hover {
   -webkit-box-shadow: none;
           box-shadow: none;
   background-position: 0 100%;
@@ -270,5 +281,4 @@
     margin: 0 20px;
   }
 }
-
 /*# sourceMappingURL=style.css.map */

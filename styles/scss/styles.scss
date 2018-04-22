@@ -8,7 +8,11 @@
     display: flex;
     flex-direction: column;
     margin: 0 50px;
-    button {
+    .goToSite__Btn {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
         margin: 20px 0;
         border: 0;
         width: 250px;
@@ -22,10 +26,8 @@
         font-family: $proxima;
         font-size: 1.5rem;
         color: #fff;
-        a {
-            color: #fff;
-            text-decoration: none;
-        }
+        text-decoration: none;
+        text-align:  center;
         &:hover {
             box-shadow: none;
             background-position: 0 100%;
