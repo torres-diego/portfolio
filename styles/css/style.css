@@ -22,12 +22,16 @@
   font-weight: 900;
   color: #fff;
   margin: 0 20px;
+  -webkit-animation: slideIn 2.2s ease-in-out;
+          animation: slideIn 2.2s ease-in-out;
 }
 .hero__section p {
   font-family: "proxima-nova", sans-serif;
   font-size: 2em;
   color: #fff;
-  margin: 0 20px;
+  margin: 10px 20px;
+  -webkit-animation: slideIn 2.8s ease-in-out;
+          animation: slideIn 2.8s ease-in-out;
 }
 
 @-webkit-keyframes gradient {
@@ -51,6 +55,30 @@
   }
   100% {
     background-position: 0% 100%;
+  }
+}
+@-webkit-keyframes slideIn {
+  0% {
+    -webkit-transform: translateX(-2000px);
+            transform: translateX(-2000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+    opacity: 1;
+  }
+}
+@keyframes slideIn {
+  0% {
+    -webkit-transform: translateX(-2000px);
+            transform: translateX(-2000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+    opacity: 1;
   }
 }
 .about__section {
@@ -199,6 +227,11 @@
   font-size: 1.5rem;
   margin: 10px 0;
 }
+.contact__section .contact__wrapper p .link {
+  text-decoration: underline;
+  font-weight: 900;
+  color: #2575fc;
+}
 .contact__section .contact__wrapper form {
   justify-self: stretch;
 }
@@ -227,6 +260,29 @@
   width: 100%;
   height: 100px;
   border: 2px solid #2575fc;
+}
+.contact__section .contact__wrapper form button {
+  border: 0;
+  width: 250px;
+  height: 45px;
+  background-image: linear-gradient(45deg, #6a11cb 0%, #2575fc 100%);
+  background-size: 200%;
+  background-position: 100% 100%;
+  border-radius: 3px;
+  -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
+          box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
+  -webkit-transition: 0.6s all ease-in-out;
+  transition: 0.6s all ease-in-out;
+  font-family: "proxima-nova", sans-serif;
+  font-size: 1.5rem;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+}
+.contact__section .contact__wrapper form button:hover {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  background-position: 0 100%;
 }
 
 .site__wrapper {
