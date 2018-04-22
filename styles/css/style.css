@@ -22,16 +22,16 @@
   font-weight: 900;
   color: #fff;
   margin: 0 20px;
-  -webkit-animation: slideIn 2.2s ease-in-out;
-          animation: slideIn 2.2s ease-in-out;
+  -webkit-animation: slideIn 1.2s ease-in-out;
+          animation: slideIn 1.2s ease-in-out;
 }
 .hero__section p {
   font-family: "proxima-nova", sans-serif;
   font-size: 2em;
   color: #fff;
   margin: 10px 20px;
-  -webkit-animation: slideIn 2.8s ease-in-out;
-          animation: slideIn 2.8s ease-in-out;
+  -webkit-animation: slideIn 1.8s ease-in-out;
+          animation: slideIn 1.8s ease-in-out;
 }
 
 @-webkit-keyframes gradient {
@@ -125,8 +125,8 @@
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
   opacity: 0;
-  -webkit-transition: all 2s ease-in-out;
-  transition: all 2s ease-in-out;
+  -webkit-transition: all 1.5s ease-in-out;
+  transition: all 1.5s ease-in-out;
 }
 .work__section h2 {
   font-family: "proxima-nova", sans-serif;
@@ -371,4 +371,5 @@
     margin: 0 20px;
   }
 }
+
 /*# sourceMappingURL=style.css.map */
