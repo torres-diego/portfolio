@@ -66,10 +66,17 @@
         font-weight: 900;
         margin: 10px 0;
       }
+      span {
+        font-family: $proxima;
+        font-size: 1.2rem;
+        font-weight: 900;
+        margin: 5px 0;
+        color: $blue;
+      }
       p {
         font-family: $proxima;
         font-size: 1.2rem;
-        margin: 10px 0;
+        margin: 5px 0;
       }
       button {
         align-self: end;

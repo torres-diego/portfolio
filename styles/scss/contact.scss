@@ -13,6 +13,7 @@
         text-decoration: underline;
         text-decoration-style: double;
         text-decoration-color: $blue;
+        animation: slideIn 2s ease-in-out;
     }
     .contact__wrapper {
         display: grid;

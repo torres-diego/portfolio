@@ -22,16 +22,16 @@
   font-weight: 900;
   color: #fff;
   margin: 0 20px;
-  -webkit-animation: slideIn 1.2s ease-in-out;
-          animation: slideIn 1.2s ease-in-out;
+  -webkit-animation: slideIn 2s ease-in-out;
+          animation: slideIn 2s ease-in-out;
 }
 .hero__section p {
   font-family: "proxima-nova", sans-serif;
   font-size: 2em;
   color: #fff;
   margin: 10px 20px;
-  -webkit-animation: slideIn 1.8s ease-in-out;
-          animation: slideIn 1.8s ease-in-out;
+  -webkit-animation: slideIn 2.8s ease-in-out;
+          animation: slideIn 2.8s ease-in-out;
 }
 
 @-webkit-keyframes gradient {
@@ -105,6 +105,8 @@
           text-decoration-style: double;
   -webkit-text-decoration-color: #2575fc;
           text-decoration-color: #2575fc;
+  -webkit-animation: slideIn 2s ease-in-out;
+          animation: slideIn 2s ease-in-out;
 }
 .about__section p {
   font-family: "proxima-nova", sans-serif;
@@ -197,10 +199,17 @@
   font-weight: 900;
   margin: 10px 0;
 }
+.work__section .work__wrapper .happySunshine__work span {
+  font-family: "proxima-nova", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 900;
+  margin: 5px 0;
+  color: #2575fc;
+}
 .work__section .work__wrapper .happySunshine__work p {
   font-family: "proxima-nova", sans-serif;
   font-size: 1.2rem;
-  margin: 10px 0;
+  margin: 5px 0;
 }
 .work__section .work__wrapper .happySunshine__work button {
   -ms-flex-item-align: end;
@@ -221,6 +230,8 @@
           text-decoration-style: double;
   -webkit-text-decoration-color: #2575fc;
           text-decoration-color: #2575fc;
+  -webkit-animation: slideIn 2s ease-in-out;
+          animation: slideIn 2s ease-in-out;
 }
 .contact__section .contact__wrapper {
   display: grid;
